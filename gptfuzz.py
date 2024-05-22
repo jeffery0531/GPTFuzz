@@ -85,7 +85,7 @@ if __name__ == "__main__":
                         default='round_robin', help='The seed selection strategy')
     parser.add_argument("--max-new-tokens", type=int, default=512)
     parser.add_argument("--seed_path", type=str,
-                        default="GPTFuzz/datasets/prompts/GPTFuzzer.csv")
+                        default="datasets/prompts/GPTFuzzer.csv")
     parser.add_argument("--temperature_expand", type=float, default=0)
     parser.add_argument("--temperature_generatesimilar", type=float, default=0)
     parser.add_argument("--temperature_rephrase", type=float, default=0)
